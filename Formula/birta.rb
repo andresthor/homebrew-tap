@@ -1,25 +1,25 @@
 class Birta < Formula
   desc "Preview markdown files in the browser with GitHub-style rendering"
   homepage "https://github.com/andresthor/birta"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/andresthor/birta/releases/download/v0.1.1/birta-aarch64-apple-darwin.tar.xz"
-      sha256 "5552115e69046f29d453a32f672e0f3165fd2024dfd80810cdce3e8f766034e4"
+      url "https://github.com/andresthor/birta/releases/download/v0.2.0/birta-aarch64-apple-darwin.tar.xz"
+      sha256 "00f0541d1eab6794118811be43bfb86ad213a18c51328d592fbe28d12962e3b6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/andresthor/birta/releases/download/v0.1.1/birta-x86_64-apple-darwin.tar.xz"
-      sha256 "fa393b4049b479a7ff9f672812c243030c1bacd2134953905cf2b23deb320f9d"
+      url "https://github.com/andresthor/birta/releases/download/v0.2.0/birta-x86_64-apple-darwin.tar.xz"
+      sha256 "643ed1323e4627ad6fedd7ba3333e9cc8519762049261b0a60d10b57adaa6d6c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/andresthor/birta/releases/download/v0.1.1/birta-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "fe14a3a283bc423ecb85417bc2ac7b197a66600d29fe8da756f4073737e7a2b5"
+      url "https://github.com/andresthor/birta/releases/download/v0.2.0/birta-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "60a3a34f4b2ae17a9f6df78d2a0fd15e0f0abe1610f5a62f63a4aee1e694af51"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/andresthor/birta/releases/download/v0.1.1/birta-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "947a2f6c27ddc7e9376c3262572144c84845ba2ffd786e1974dd28cb4109e536"
+      url "https://github.com/andresthor/birta/releases/download/v0.2.0/birta-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0a31323a30c821d3f60f62b476bf463cc69851fd40cc6d5cb8618015a97b03d9"
     end
   end
   license "MIT"
